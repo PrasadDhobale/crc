@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CRC Bit Checking</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="prasad.png">
+</head>
+<body>
+    
+    <div class="container">
+        <h1>CRC Bit Checking</h1>
+        <form id="crcForm">
+            <label for="dataInput">Data Input:</label>
+            <input type="text" id="dataInput" required>
+
+            <label for="divisor">Divisor:</label>
+            <input type="text" id="divisor" required>
+
+            <button type="button" onclick="calculateCRC()">Calculate CRC</button>
+        </form>
+
+        <div id="result"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
